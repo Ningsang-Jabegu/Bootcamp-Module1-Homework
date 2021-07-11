@@ -256,11 +256,44 @@ input[type="submit"]{
     margin-top: 1em;
 }
 main {
-    margin: 6.5em;
+    margin: 3.5em;
 }
 .contactinfo {
     margin-top: 1.6em;
 }
 .email {
     margin-top: .7em;
+}
+/* cliff */
+#cliff header {
+    background: no-repeat lightgray url(images/forest_cliff.jpg);
+    background-size: 1500px;
+}
+img[alt~="North Cliff Mountains"] {
+    height: 100px;
+    width: 100px;
+}
+.gallary img:first-child {
+    width: 455px;
+    height: 245px;
+    float: left;
+}
+figcaption {
+    background-color: #500f05;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    width: 455px;
+    padding: 1.2em 0 1.2em 0;
+    margin-right: 3.9em;
+}
+.images {
+    margin: 3.9em;
+    display: flex;
+}
+.gallary img:nth-child(2) {
+    width: 455px;
+    height: 245px;
+    float: left;
+    margin-left: 0;
 }
