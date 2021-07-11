@@ -54,6 +54,7 @@ header {
 }
 .main-menu ul li a:hover {
     color: #9ed034;
+    
 }
 .main-menu ul li.active {
     background: #9ed034;
