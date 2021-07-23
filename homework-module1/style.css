@@ -259,7 +259,7 @@ textarea {
     margin-top: 0;
 }
 input[type="submit"]{
-    background-color:#4977D1;
+    /*background-color:#4977D1;*/
     color: #fff;
     font-weight: bold;
     border: none;
@@ -282,6 +282,7 @@ main {
 .email {
     margin-top: .7em;
 }
+
 /* cliff */
 #cliff header {
     background: no-repeat lightgray url(images/forest_cliff.jpg);
@@ -314,4 +315,21 @@ figcaption {
     height: 245px;
     float: left;
     margin-left: 0;
+}
+
+/* Verification */
+.randomcode {
+    display: flex;
+}
+#codes {
+    background-color: #d1d1d1;
+    margin-left: 1em;
+    margin-top: .01em;
+    justify-content: center;
+    text-align: center;
+    padding:7px;
+}
+.randomcode {
+    width: 9em;
+    margin-left: 18.1em;
 }
