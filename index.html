@@ -6,17 +6,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover the unique and magnificent cliffs of California.">
+    <meta name="keywords" content="California, cliffs, nature, travel, tourism">
+    <meta name="author" content="Ningsang Jabegu">
     <!-- Add icon library -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
-    <link type="text/javascript"  href="test.js">
 </head>
 
 <body id="home">
-    <!--Header begins here-->
+    <!-- Header begins here -->
     <header>
-
-        <!-- Division include Logo-->
+        <!-- Division includes Logo -->
         <div class="main-header">
             <div class="logo">
                 <img src="images/logo.png" alt="Great Cliffs Logo" width="125">
@@ -25,26 +26,22 @@
         <!-- Logo division ends here -->
 
         <!-- Navigation Bar starts here -->
-        <nav class="main-menu">
+        <nav class="main-menu" aria-label="Main Navigation">
             <ul>
                 <!-- Menu listed in navigation bar -->
-                <li class="active"><a href="index.html">Home</a></li>
+                <li class="active"><a href="#">Home</a></li>
                 <li><a href="cliff.html">Cliffs</a></li>
                 <li><a href="activities.html">Activities</a></li>
                 <li><a href="contact.html">Contact</a></li>
-                <!-- Menu list end here-->
+                <!-- Menu list end here -->
             </ul>
         </nav>
         <!-- Navigation ends here -->
-        <!-- CLock -->
-        <section id="timeofday">
-            <span>Your Current Local Time: </span>
-            <span id="clock"></span>
-            <span id="timezone"></span>
-            <span id="diff"></span>
-        </section>
+
+        <!-- Digital Clock Display -->
+        <div id="clock"></div>
     </header>
-    <!-- Headers ends here-->
+    <!-- Header ends here -->
 
     <main>
         <h1>Introducing California's Greatest Cliffs</h1>
@@ -67,7 +64,9 @@
             to Irvine is West Cliff, which is the most popular and most visited.</p>
         <!-- Answer no. 2 ends here. -->
     </main>
-    <section>
+
+    <section aria-labelledby="partners-heading">
+        <h2 id="partners-heading">Our Partners</h2>
         <!-- Partners -->
         <ul id="partners">
             <!--<li class="partner"><img src="images/partners_img/partner-1.png" alt="Partner Bus Tours"></li>
@@ -78,16 +77,17 @@
             <li class="partner"><img src="images/partners_img/partner-6.png" alt="Partner Tours Group"></li>-->
         </ul>
     </section>
-    <!-- Footer begains here-->
+
+    <!-- Footer begins here-->
     <footer>
         <div id="nondisclaimer">
             <!-- Copyright Information -->
             <div class="copy">&copy; Copyright 2020 :: GreatCliffs.com</div>
             <div class="social">
                 <!-- Social Media links here -->
-                <a href="#" class="fa fa-facebook"></a>
-                <a href="#" class="fa fa-instagram"></a>
-                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-facebook" aria-label="Facebook"></a>
+                <a href="#" class="fa fa-instagram" aria-label="Instagram"></a>
+                <a href="#" class="fa fa-twitter" aria-label="Twitter"></a>
             </div>
         </div>
         <!-- Disclaimer information starts here -->
@@ -97,10 +97,13 @@
         </div>
         <!-- Disclaimer information ends here -->
     </footer>
-    <!-- Digital Clock -->
-<script src="js/digiclock.js"></script>
+    <!-- Footer ends here-->
+
     <!-- Partners -->
-<script src="js/site_scripts.js"></script>
+    <script src="js/site_scripts.js"></script>
+
+    <!-- Digital Clock -->
+    <script src="js/digiclock.js" defer></script>
 </body>
 
 </html>
