@@ -56,3 +56,6 @@ This project was created as part of an educational assignment at Westcliff Unive
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE.md](https://github.com/Ningsang-Jabegu/Bootcamp-Module1-Homework?tab=MIT-1-ov-file) file for more details.
+
+## Live Demo
+Check out the live version of the project at [Bootcamp Module 1 Homework](https://bootcamp-module1-homework.vercel.app/)
